@@ -76,7 +76,7 @@ jobs:
       dep-repo-1: 'webfx-project/webfx-parent'
       dep-repo-2: 'webfx-project/webfx-lib-javacupruntime'
       dep-repo-3: 'webfx-project/webfx'
-      dep-repo-4: 'webfx-project/webfx-extras' # Due to use of WebText
+      dep-repo-4: 'webfx-project/webfx-extras-webtext'
       app-name:  ${{ matrix.app.name }}
       app-repo-dir:              .
       app-parent-module-dir:     .
