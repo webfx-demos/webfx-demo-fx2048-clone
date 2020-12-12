@@ -69,7 +69,7 @@
     <properties>
         <plugin.javapackager.name>Fx2048</plugin.javapackager.name>
         <plugin.javapackager.displayName>Fx2048</plugin.javapackager.displayName>
-        <plugin.javapackager.url>https://webfx-fx2048-demo.netlify.app</plugin.javapackager.url>
+        <plugin.javapackager.url>https://fx2048.webfx-project.org</plugin.javapackager.url>
     </properties>
 
     <build>
