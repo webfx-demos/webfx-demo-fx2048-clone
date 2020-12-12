@@ -18,5 +18,5 @@ There was indeed already a [JavaFx version][fx2048-link] of the game, and this d
 
 This demo also shows that you can write applications such as games using the scene graph and CSS (this game is not canvas based).
 
-[demo-live-link]: https://webfx-fx2048-demo.netlify.app
+[demo-live-link]: https://fx2048.webfx-project.org
 [fx2048-link]: https://github.com/brunoborges/fx2048
