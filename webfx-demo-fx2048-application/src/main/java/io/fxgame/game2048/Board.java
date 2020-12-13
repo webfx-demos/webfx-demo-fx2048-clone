@@ -19,7 +19,7 @@ import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 import javafx.scene.shape.Rectangle;
 import javafx.util.Duration;
-import webfx.extras.webtext.controls.HtmlText;
+import dev.webfx.extras.webtext.controls.HtmlText;
 
 import java.time.LocalTime;
 import java.time.ZoneId;
