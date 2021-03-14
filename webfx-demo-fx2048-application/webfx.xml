@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <module>
 
-    <packages exports="true"/>
+    <packages exports="true">
+        <package resource="true">io.fxgame.game2048</package>
+    </packages>
+
 
     <providers>
         <provider spi="javafx.application.Application">io.fxgame.game2048.Game2048</provider>
     </providers>
-
-    <resource-packages>
-        <package>io.fxgame.game2048</package>
-    </resource-packages>
 
 </module>
