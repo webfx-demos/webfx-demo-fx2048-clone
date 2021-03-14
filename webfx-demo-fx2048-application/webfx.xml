@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <module>
 
-    <packages export-sources="true">
-        <package resource="true">io.fxgame.game2048</package>
+    <packages export-sources="true" resource="true">
+        <package>io.fxgame.game2048</package>
     </packages>
 
 
