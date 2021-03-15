@@ -7,7 +7,7 @@
     </packages>
 
     <providers>
-        <provider spi="javafx.application.Application">io.fxgame.game2048.Game2048</provider>
+        <javafx.application.Application>io.fxgame.game2048.Game2048</javafx.application.Application>
     </providers>
 
     <dependencies>
