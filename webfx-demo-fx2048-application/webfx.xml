@@ -6,9 +6,12 @@
         <resource-package>io.fxgame.game2048</resource-package>
     </packages>
 
-
     <providers>
         <provider spi="javafx.application.Application">io.fxgame.game2048.Game2048</provider>
     </providers>
+
+    <dependencies>
+        <source-modules/>
+    </dependencies>
 
 </module>
