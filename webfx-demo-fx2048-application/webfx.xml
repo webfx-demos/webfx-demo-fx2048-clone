@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project>
 
-    <packages>
+    <exported-packages>
         <source-packages/>
         <resource-package>io.fxgame.game2048</resource-package>
-    </packages>
+    </exported-packages>
 
     <providers>
         <javafx.application.Application>io.fxgame.game2048.Game2048</javafx.application.Application>
