@@ -78,8 +78,8 @@
     </dependencies>
 
     <properties>
-        <plugin.javapackager.name>webfx-demo-fx2048</plugin.javapackager.name>
-        <plugin.javapackager.displayName>webfx-demo-fx2048</plugin.javapackager.displayName>
+        <plugin.javapackager.name>WebFXDemoFx2048</plugin.javapackager.name>
+        <plugin.javapackager.displayName>WebFX Demo Fx2048</plugin.javapackager.displayName>
         <plugin.javapackager.url/>
     </properties>
 

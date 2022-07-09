@@ -13,6 +13,8 @@
 
     <artifactId>webfx-demo-fx2048-application-gluon</artifactId>
 
+    <name>WebFXDemoFx2048</name>
+
     <dependencies>
 
         <dependency>
