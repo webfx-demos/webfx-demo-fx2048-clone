@@ -7,7 +7,7 @@
     </exported-packages>
 
     <providers>
-        <javafx.application.Application>io.fxgame.game2048.Game2048</javafx.application.Application>
+        <provider interface="javafx.application.Application">io.fxgame.game2048.Game2048</provider>
     </providers>
 
     <dependencies>
