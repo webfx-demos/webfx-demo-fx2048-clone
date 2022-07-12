@@ -1,6 +1,6 @@
 package io.fxgame.game2048;
 
-import dev.webfx.platform.client.services.storage.LocalStorage;
+import dev.webfx.platform.storage.LocalStorage;
 
 import java.util.Properties;
 

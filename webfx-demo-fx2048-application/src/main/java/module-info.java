@@ -8,8 +8,8 @@ module webfx.demo.fx2048.application {
     requires javafx.controls;
     requires javafx.graphics;
     requires webfx.extras.webtext.controls;
-    requires webfx.platform.client.storage;
-    requires webfx.platform.shared.resource;
+    requires webfx.platform.resource;
+    requires webfx.platform.storage;
 
     // Exported packages
     exports io.fxgame.game2048;

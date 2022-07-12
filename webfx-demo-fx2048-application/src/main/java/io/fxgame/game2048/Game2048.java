@@ -3,7 +3,7 @@ package io.fxgame.game2048;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import dev.webfx.platform.shared.services.resource.ResourceService;
+import dev.webfx.platform.resource.Resource;
 
 /**
  * @author Bruno Borges
@@ -24,7 +24,7 @@ public class Game2048 extends Application {
         gamePane = new GamePane();
 
         var scene = new Scene(gamePane, 600, 600);
-        scene.getStylesheets().add(ResourceService.toUrl("game.css", getClass())/*getClass().getResource("game.css").toExternalForm()*/);
+        scene.getStylesheets().add(Resource.toUrl("game.css", getClass())/*getClass().getResource("game.css").toExternalForm()*/);
 
         setGameBounds(primaryStage, scene);
         setEnhancedDeviceSettings(primaryStage, scene);
