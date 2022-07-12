@@ -667,7 +667,7 @@ SVG ICONS https://icomoon.io/app/
     -fx-effect: dropshadow(gaussian,derive(-fx-focus-color,-20%),10,0.5,0,0);
 }
 
-/* These selectors make JavaFx CSS crash that's why they are at the end */
+/* These selectors make JavaFX CSS crash that's why they are at the end */
 
 #mQuit:has(> button:pressed) {
     transform: translate(0 2px);

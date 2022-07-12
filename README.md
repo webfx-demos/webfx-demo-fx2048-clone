@@ -11,8 +11,8 @@ The goal of the play is to sum 2048 on a single tile.
 
 ## Reusability
 
-This demo demonstrates how you can port existing JavaFx applications.
-There was indeed already a [JavaFx version][fx2048-link] of the game, and this demo is just a port of it in WebFx so the game could be transpiled into a Web Application.
+This demo demonstrates how you can port existing JavaFX applications.
+There was indeed already a [JavaFX version][fx2048-link] of the game, and this demo is just a port of it in WebFX so the game could be transpiled into a Web Application.
 
 ## HTML/CSS mapping
 

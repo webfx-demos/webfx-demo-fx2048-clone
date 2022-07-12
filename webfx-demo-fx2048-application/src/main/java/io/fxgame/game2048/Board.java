@@ -463,7 +463,7 @@ public class Board extends VBox {
                         "    </div>\n" +
                         "    <div class='game-lblAboutSub'>\n" +
                         "        <div>\n" +
-                        "            JavaFx game - WebFx version\n" +
+                        "            JavaFX game - WebFX version\n" +
                         "        </div>\n" +
                         "        <br/>\n" +
                         "        <div>\n" +

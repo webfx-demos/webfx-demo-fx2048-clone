@@ -17,7 +17,7 @@ public class Tile extends Label {
 
     @Override
     public void relocate(double x, double y) {
-        // Overriding relocate to fix a problem in WebFx where the tile is relocated at the let top corner of the board when created
+        // Overriding relocate to fix a problem in WebFX where the tile is relocated at the let top corner of the board when created
     }
 
     public static Tile newRandomTile() {
