@@ -77,13 +77,13 @@
     <source path="io/fxgame/game2048"/>
     <resource path="io/fxgame/game2048"/>
     <public includes="io/fxgame/game2048/" path=""/>
-    <!--=========================< webfx-extras-webtext-controls >==========================-->
-    <source path="dev/webfx/extras/webtext/controls"/>
-    <!--====================< webfx-extras-webtext-controls-peers-base >====================-->
-    <source path="dev/webfx/extras/webtext/controls/peers/base"/>
-    <!--====================< webfx-extras-webtext-controls-peers-gwt >=====================-->
-    <source path="dev/webfx/extras/webtext/controls/peers/gwt/html"/>
-    <source path="dev/webfx/extras/webtext/controls/registry"/>
+    <!--==============================< webfx-extras-webtext >==============================-->
+    <source path="dev/webfx/extras/webtext"/>
+    <!--========================< webfx-extras-webtext-peers-base >=========================-->
+    <source path="dev/webfx/extras/webtext/peers/base"/>
+    <!--=========================< webfx-extras-webtext-peers-gwt >=========================-->
+    <source path="dev/webfx/extras/webtext/peers/gwt/html"/>
+    <source path="dev/webfx/extras/webtext/registry"/>
     <!--=================================< webfx-kit-gwt >==================================-->
     <source path="dev/webfx/kit/launcher/spi/impl/gwt"/>
     <source path="dev/webfx/kit/mapper/spi/impl/gwt"/>
@@ -124,6 +124,10 @@
     <source path="dev/webfx/platform/console/spi"/>
     <!--===========================< webfx-platform-console-gwt >===========================-->
     <source path="dev/webfx/platform/console/spi/impl/gwt"/>
+    <!--========================< webfx-platform-javabase-emul-gwt >========================-->
+    <source path="emul/java/lang/ref"/>
+    <source path="emul/java/util"/>
+    <source path="emul/java/util/regex"/>
     <!--============================< webfx-platform-resource >=============================-->
     <source path="dev/webfx/platform/resource"/>
     <source path="dev/webfx/platform/resource/spi"/>

@@ -7,7 +7,7 @@ module webfx.demo.fx2048.application {
     requires javafx.base;
     requires javafx.controls;
     requires javafx.graphics;
-    requires webfx.extras.webtext.controls;
+    requires webfx.extras.webtext;
     requires webfx.platform.resource;
     requires webfx.platform.storage;
 
