@@ -103,6 +103,8 @@
                     </attachList>
                     <resourcesList>
                         <list>dev/webfx/platform/meta/exe/[^/]+</list>
+                        <list>io/fxgame/game2048/[^/]+</list>
+                        <list>images/checkbox/[^/]+</list>
                     </resourcesList>
                 </configuration>
             </plugin>
