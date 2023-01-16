@@ -55,7 +55,7 @@
 
         <dependency>
             <groupId>dev.webfx</groupId>
-            <artifactId>webfx-platform-resource-java</artifactId>
+            <artifactId>webfx-platform-resource-gluon</artifactId>
             <version>0.1.0-SNAPSHOT</version>
         </dependency>
 
@@ -103,8 +103,8 @@
                     </attachList>
                     <resourcesList>
                         <list>dev/webfx/platform/meta/exe/[^/]+</list>
-                        <list>io/fxgame/game2048/[^/]+</list>
                         <list>images/checkbox/[^/]+</list>
+                        <list>io/fxgame/game2048/[^/]+</list>
                     </resourcesList>
                 </configuration>
             </plugin>
