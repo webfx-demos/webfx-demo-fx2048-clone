@@ -102,10 +102,14 @@
                         <list>storage</list>
                     </attachList>
                     <resourcesList>
-                        <list>dev/webfx/platform/meta/exe/[^/]+</list>
-                        <list>images/checkbox/[^/]+</list>
-                        <list>io/fxgame/game2048/[^/]+</list>
+                        <list>dev/webfx/platform/meta/exe/[^/]+$</list>
+                        <list>images/checkbox/[^/]+$</list>
+                        <list>io/fxgame/game2048/[^/]+$</list>
                     </resourcesList>
+                    <releaseConfiguration>
+                        <!-- Android -->
+                        <appLabel>FX2048</appLabel>
+                    </releaseConfiguration>
                 </configuration>
             </plugin>
         </plugins>
