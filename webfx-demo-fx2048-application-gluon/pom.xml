@@ -106,10 +106,12 @@
                         <list>images/checkbox/[^/]+$</list>
                         <list>io/fxgame/game2048/[^/]+$</list>
                     </resourcesList>
+                    <appIdentifier>dev.webfx.demo.fx2048</appIdentifier>
                     <releaseConfiguration>
                         <!-- Android -->
                         <appLabel>FX2048</appLabel>
                     </releaseConfiguration>
+
                 </configuration>
             </plugin>
         </plugins>
