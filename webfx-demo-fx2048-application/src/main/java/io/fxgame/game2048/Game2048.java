@@ -24,7 +24,7 @@ public class Game2048 extends Application {
         gamePane = new GamePane();
 
         var scene = new Scene(gamePane, 600, 600);
-        scene.getStylesheets().add(Resource.toUrl("game.css", getClass())/*getClass().getResource("game.css").toExternalForm()*/);
+        scene.getStylesheets().add(Resource.toUrl("css/game.css", getClass()));
 
         setGameBounds(primaryStage, scene);
         setEnhancedDeviceSettings(primaryStage, scene);

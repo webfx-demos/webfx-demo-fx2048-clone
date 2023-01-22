@@ -68,6 +68,13 @@
 
         <dependency>
             <groupId>dev.webfx</groupId>
+            <artifactId>webfx-demo-fx2048-css-web</artifactId>
+            <version>0.1.0-SNAPSHOT</version>
+            <classifier>sources</classifier>
+        </dependency>
+
+        <dependency>
+            <groupId>dev.webfx</groupId>
             <artifactId>webfx-extras-webtext</artifactId>
             <version>0.1.0-SNAPSHOT</version>
             <classifier>sources</classifier>

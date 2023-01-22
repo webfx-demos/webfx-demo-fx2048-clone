@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+
+    <implements>
+        <module>webfx-demo-fx2048-css</module>
+    </implements>
+
+    <exported-packages>
+        <source-packages/>
+        <resource-package>io.fxgame.game2048.css</resource-package>
+    </exported-packages>
+
+    <dependencies>
+        <used-by-source-modules/>
+    </dependencies>
+
+</project>

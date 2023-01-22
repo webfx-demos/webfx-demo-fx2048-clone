@@ -1,10 +1,11 @@
 package io.fxgame.game2048;
 
+import dev.webfx.extras.webtext.HtmlText;
+import dev.webfx.platform.shutdown.Shutdown;
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;
 import javafx.animation.Timeline;
-import javafx.application.Platform;
 import javafx.beans.binding.Bindings;
 import javafx.beans.property.*;
 import javafx.beans.value.ChangeListener;
@@ -19,7 +20,6 @@ import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 import javafx.scene.shape.Rectangle;
 import javafx.util.Duration;
-import dev.webfx.extras.webtext.HtmlText;
 
 import java.time.LocalTime;
 import java.time.ZoneId;
@@ -274,7 +274,7 @@ public class Board extends VBox {
     }
 
     private void exitGame() {
-        Platform.exit();
+        Shutdown.softwareShutdown(true, 0);
     }
 
     private final Overlay wonListener = new Overlay("You win!", "", bContinue, bTry, "game-overlay-won", "game-lblWon");
@@ -396,7 +396,7 @@ public class Board extends VBox {
         gameAboutProperty.addListener((observable, oldValue, newValue) -> {
             if (newValue) {
                 timer.stop();
-                overlay.getStyleClass().setAll("game-overlay", "game-overlay-quit");
+                overlay.getStyleClass().setAll("game-overlay", "game-overlay-about");
 /*
                 TextFlow flow = new TextFlow();
                 flow.setTextAlignment(TextAlignment.CENTER);
@@ -483,6 +483,7 @@ public class Board extends VBox {
                         "    </div>\n" +
                         "</center>");
                 htmlText.setPrefWidth(gridWidth);
+                VBox.setVgrow(htmlText, Priority.ALWAYS);
                 //htmlText.setMaxHeight(400);
                 txtOverlay.getChildren().setAll(htmlText);
                 buttonsOverlay.getChildren().setAll(bContinue);
