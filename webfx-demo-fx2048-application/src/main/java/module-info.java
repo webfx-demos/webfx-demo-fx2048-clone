@@ -9,6 +9,7 @@ module webfx.demo.fx2048.application {
     requires javafx.graphics;
     requires webfx.demo.fx2048.css;
     requires webfx.extras.webtext;
+    requires webfx.kit.util.scene;
     requires webfx.platform.resource;
     requires webfx.platform.shutdown;
     requires webfx.platform.storage;

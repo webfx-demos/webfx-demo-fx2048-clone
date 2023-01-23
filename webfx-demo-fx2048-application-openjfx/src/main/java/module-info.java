@@ -8,6 +8,7 @@ module webfx.demo.fx2048.application.openjfx {
     requires webfx.kit.platform.visibility.openjfx;
     requires webfx.platform.boot.java;
     requires webfx.platform.console.java;
+    requires webfx.platform.os.java;
     requires webfx.platform.resource.java;
     requires webfx.platform.scheduler.java;
     requires webfx.platform.shutdown.java;

@@ -1,5 +1,6 @@
 package io.fxgame.game2048;
 
+import dev.webfx.kit.util.scene.DeviceSceneUtil;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -23,7 +24,7 @@ public class Game2048 extends Application {
     public void start(Stage primaryStage) {
         gamePane = new GamePane();
 
-        var scene = new Scene(gamePane, 600, 600);
+        var scene = DeviceSceneUtil.newScene(gamePane, 600, 600);
         scene.getStylesheets().add(Resource.toUrl("css/game.css", getClass()));
 
         setGameBounds(primaryStage, scene);
