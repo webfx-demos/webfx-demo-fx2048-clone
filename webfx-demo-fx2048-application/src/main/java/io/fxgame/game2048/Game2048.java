@@ -1,10 +1,12 @@
 package io.fxgame.game2048;
 
 import dev.webfx.kit.util.scene.DeviceSceneUtil;
+import dev.webfx.platform.resource.Resource;
 import javafx.application.Application;
 import javafx.scene.Scene;
+import javafx.scene.layout.Pane;
+import javafx.scene.text.Font;
 import javafx.stage.Stage;
-import dev.webfx.platform.resource.Resource;
 
 /**
  * @author Bruno Borges
@@ -22,10 +24,17 @@ public class Game2048 extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        gamePane = new GamePane();
 
-        var scene = DeviceSceneUtil.newScene(gamePane, 600, 600);
+        var scene = DeviceSceneUtil.newScene(new Pane() /* temporary dummy root */, 600, 600);
         scene.getStylesheets().add(Resource.toUrl("css/game.css", getClass()));
+
+        // Ensuring the font is loaded before instantiating GamePane (otherwise some bounds may be wrong on first layout - ex: "FX" after 2048)
+        Font.loadFont(Resource.toUrl("css/ClearSans-Bold.ttf", getClass()), 14);
+        DeviceSceneUtil.onFontsLoaded(() -> {
+            gamePane = new GamePane();
+            scene.setRoot(gamePane);
+            gamePane.requestFocus();
+        });
 
         setGameBounds(primaryStage, scene);
         setEnhancedDeviceSettings(primaryStage, scene);
